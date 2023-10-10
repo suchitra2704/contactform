@@ -1,0 +1,68 @@
+body{
+    /* background-image: url(theme2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+     */
+     background: linear-gradient(45deg, rgb(208, 8, 8),#194f1d,rgb(9, 100, 227));
+    
+}
+.main{
+    display:grid;
+
+    justify-content:center;
+align-items: center; 
+height: 800px; 
+position: relative;
+flex-direction: row;
+
+
+
+}
+.tt{
+    position: relative;
+height: 500px;
+width: 700px;
+/* background-color: rgb(11, 170, 198); */
+/* background: #3e79a3; */
+background: linear-gradient(45deg, rgb(153, 184, 153),#4f1919);
+
+}
+h1, p{
+    font-size: 30px;
+    font-weight: 20px;
+    text-align: center;
+    color: #fff;
+}
+p{
+    font-size: 15px;
+}
+.form{
+    position: relative;
+    top:30px;
+    text-align: center;
+}
+input{
+    border: none;
+    /* border-bottom: 4px solid blue; */
+    border-bottom: 4px solid rgb(208, 8, 8);
+    background: linear-gradient(45deg, rgb(153, 184, 153),#4f1919); 
+    height: 30px;
+    
+    color: red;
+
+}
+.submit button{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px; /* Rounded border */
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto; /* Center the button */
+
+}
+
+
+
